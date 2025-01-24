@@ -16,12 +16,14 @@
   list-style-type: none;
 }
 .grid__card-image {
+  border-radius: 10px;
   max-width: 282px;
   max-height: 282px;
 }
 .grid__card-footer {
   display: flex;
   text-overflow: ellipsis;
+  text-wrap: nowrap;
   background-color: white;
   color: black;
   max-width: 282px;
@@ -29,14 +31,19 @@
   justify-content: space-around;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-}
-.grid__card-text {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 20px;
   font-size: 24px;
   font-weight: 900;
   line-height: 29.05px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.grid__card-text {
+  display: block;
+  /*max-width: 219px;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0px;
 }
 .grid__card-button {
   background: transparent url(../images/Vector.svg) center no-repeat;
