@@ -28,15 +28,14 @@
   color: black;
   max-width: 282px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   font-size: 24px;
   font-weight: 900;
-  line-height: 29.05px;
+  line-height: 1.2104166667;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 20px;
 }
 .grid__card-text {
   display: block;
@@ -44,10 +43,17 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0px;
+  padding-left: 20px;
 }
 .grid__card-button {
   background: transparent url(../images/Vector.svg) center no-repeat;
   height: 18px;
   width: 21px;
   border: none;
+  margin-right: 20px;
+}
+.grid__card-button:hover {
+  opacity: 60%;
+}
+@media screen and (max-width: 480px) {
 }

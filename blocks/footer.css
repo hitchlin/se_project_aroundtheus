@@ -1,6 +1,12 @@
 .footer {
 }
 .footer__copyright {
-  color: #fff;
+  color: #545454;
   padding-bottom: 60px;
+  padding-top: 67px;
+  font-family: "Inter", Arial, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.21;
+  text-align: left;
 }
